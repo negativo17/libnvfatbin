@@ -6,7 +6,7 @@
 
 Name:           libnvfatbin
 Epoch:          1
-Version:        12.6.68
+Version:        12.6.77
 Release:        1%{?dist}
 Summary:        CUDA Fatbin Creator API
 License:        CUDA Toolkit
@@ -88,6 +88,9 @@ sed -i \
 %{_libdir}/libnvfatbin_static.a
 
 %changelog
+* Fri Dec 13 2024 Simone Caronni <negativo17@gmail.com> - 1:12.6.77-1
+- Update to 12.6.77.
+
 * Thu Sep 19 2024 Simone Caronni <negativo17@gmail.com> - 1:12.6.68-1
 - Update to 12.6.68.
 
